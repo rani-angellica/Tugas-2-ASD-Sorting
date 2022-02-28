@@ -30,3 +30,5 @@ int main()
 }
 
 #Penjelasan
+
+Selection Sort merupakan metode sorting perbaikan dari metode bubble sort, selection sort dalam mengurutkan data dengan mencari nilai terkecil terlebih dahulu. 
