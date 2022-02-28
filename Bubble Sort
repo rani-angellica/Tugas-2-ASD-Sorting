@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int i = 0, j = 0, tmp;
+int tukar[100], n, i, d;
+
+
+void bubble_sort(int tukar[], int n)
+{
+    for (i = 0; i < n; i++){
+        for (j = 0; j < n - i - 1; j++){
+            if (tukar[j] > tukar[j + 1]){
+                tmp = tukar[j];
+                tukar[j] = tukar[j + 1];
+                tukar[j + 1] = tmp;
+            }
+            }
+        }
+}
+
+int main()
+{
+  printf("=========> Program Bubble Sort <=========\n\n");
+  printf("Masukkan data yang akan diurutkan     : ");
+  scanf("%d", &n);
+
+  printf("Masukkan %d data \n", n);
+    for (i = 0; i < n; i++)
+    scanf("%d", &tukar[i]);
+    bubble_sort(tukar, n);
+
+  printf("Menampilkan data yang telah diurutkan :\n");
+    for (i = 0; i < n; i++)
+        printf("%d\n", tukar[i]);
+
+  return 0;
+}
+
+
+
+
+
+#Penjelasan 
+bubble sort merupakan metode sorting yang cukup mudah, karena cara kerjanya mengurutkan data yang telah kita inputkan satu persatu, membandingkan data dengan data berikutnya, 
+jika data yang sekarang nilainya lebih besar, maka posisinya akan ditukar dengan data berikutnya yang nilainya lebih kecil.
