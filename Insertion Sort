@@ -30,3 +30,6 @@ int main(){
 }
 
 #penjelasan
+
+insertion sort merupakan metode sorting yang mengurutkan data seperti kita saat sedang mengurutkan kartu, metode sorting ini mengurutkan array yang terakhir satu per satu.
+pengurutan data dimulai dari data ke-2 sampai dengan yang terakhir, jika ditemukan ada data yang lebih kecil maka ditempatkan di insert atau di posisi yang seharusnya.
