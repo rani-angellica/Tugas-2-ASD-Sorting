@@ -7,5 +7,6 @@
 ![Screenshot (378)](https://user-images.githubusercontent.com/99708605/156008570-19ed68d4-4736-487e-be19-7a75e4ba0375.png)
 
 3. <a href="https://github.com/rani-angellica/Tugas-2-ASD-Sorting/blob/main/Selection%20Sort">Insertion Sort</a>.
+![Screenshot (379)](https://user-images.githubusercontent.com/99708605/156010059-cff8fd77-8635-48cd-adb4-40dfbad21b9a.png)
 
 
